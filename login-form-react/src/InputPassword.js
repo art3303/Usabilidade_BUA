@@ -1,6 +1,6 @@
 import React from 'react';
 
-function InputText({ label, id, name, type }) {
+function InputPassword({ label, id, name, type }) {
   return (
     <div>
       <label htmlFor={id}>{label}</label>
@@ -9,4 +9,4 @@ function InputText({ label, id, name, type }) {
   );
 }
 
-export default InputText;
+export default InputPassword;
